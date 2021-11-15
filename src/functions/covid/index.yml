@@ -1,0 +1,7 @@
+CovidInfo:
+  handler: src/functions/covid/getInfo.main
+  events:
+    - http:
+        path: covid
+        method: GET
+        cors: true

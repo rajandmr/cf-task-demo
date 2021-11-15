@@ -1,0 +1,9 @@
+MailSender:
+  handler: src/functions/email/sendEmail.main
+  layers:
+    - { Ref: NodeModulesLambdaLayer }
+  events:
+    - http:
+        path: sendmail
+        method: POST
+        cors: true

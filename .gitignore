@@ -1,0 +1,14 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Secrets
+.env
+.env.dev
+.env.prod
+
+# Lock files
+package-lock.json
